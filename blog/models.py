@@ -1,17 +1,12 @@
-
-
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
-# Create your models here.
 # Custom Manager
 
 class PublishedManager(models.Manager):
     def get_queryset(self):
-        return 
-super(PublishedManager,self).get_queryset().filter(status='published')
-
+        return super(PublishedManager,self).get_queryset().filter(status='published')
 
 
 # Our Post Model
@@ -34,7 +29,8 @@ class Post(models.Model):
     objects = models.Manager()
 
     # Custom made manager
-    published = PublishedManager()  
+    published = PublishedManager()
+
     class Meta:
         ordering = ('-publish',)
 
