@@ -1,6 +1,6 @@
 # Django simple blog
 
-This is a simple laravel blog 
+This is a simple django blog 
 
 ## Getting Started
 
