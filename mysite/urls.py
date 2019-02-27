@@ -11,5 +11,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'blog/', include('blog.urls')),
     url(r'^tinymce/', include('tinymce.urls')),
-    url(r'^sitemap\.xml$',sitemap, {'sitemaps':sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
+    url(r'^sitemap\.xml$',sitemap, {'sitemaps':sitemaps}, name='django.contrib.sitemaps.views.sitemap'),  
 ]
