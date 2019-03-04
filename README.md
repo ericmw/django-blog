@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ericmw/django-blog.svg?branch=master)](https://travis-ci.com/ericmw/django-blog)
+
 # Django simple blog
 
 This is a simple django blog 
@@ -24,7 +26,7 @@ Start the django development server using $python manage.py runserver
 
 ## Running the tests
 Tests are done using <a href="https://travis-ci.org/">Travis CI</a>
-[![Build Status](https://travis-ci.com/ericmw/django-blog.svg?branch=master)](https://travis-ci.com/ericmw/django-blog)
+
 
 ## Authors
 
