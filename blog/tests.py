@@ -11,9 +11,9 @@ class PostTest(TestCase):
         return Post.objects.create(title=title)
     
     #test whether created title matches expected title
-    """ def test_post_creation(self):
+    def test_post_creation(self):
         w = self.create_post()
-        self.assertTrue(isinstance(w, Post)) """
+        self.assertTrue(isinstance(w, Post))
     def test_blog_list_view(self):
         w = self.create_post()
         url = reverse("blog:post_list_view")
@@ -21,4 +21,3 @@ class PostTest(TestCase):
         self.assertEqual(resp.status_code, 200)
         arr = bytes(w.title, 'utf-8')
         # self.assertIn(arr.decode(), resp.content)
-        
