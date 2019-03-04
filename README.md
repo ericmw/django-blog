@@ -22,6 +22,10 @@ Start the django development server using $python manage.py runserver
 
 * [Django version is 2.1.7.](https://www.djangoproject.com/download/) - The web framework used
 
+##Running the tests
+Tests are done using <a href="https://travis-ci.org/">Travis CI</a>
+[![Build Status](https://travis-ci.com/ericmw/django-blog.svg?branch=master)](https://travis-ci.com/ericmw/django-blog)
+
 ## Authors
 
 * **Eric Mwangi** - (https://github.com/ericmw)
