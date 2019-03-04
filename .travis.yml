@@ -2,6 +2,6 @@ language: python
 python:
   - "3.6.5"
 install:
-  - make build
+  - true
 script:
-  - echo "TODO"
+  - echo "okay"
