@@ -14,6 +14,8 @@ class PostTest(TestCase):
     def test_post_creation(self):
         w = self.create_post()
         self.assertTrue(isinstance(w, Post))
+        
+    #test if response code is 200 for the url we fetch
     def test_blog_list_view(self):
         w = self.create_post()
         url = reverse("blog:post_list_view")

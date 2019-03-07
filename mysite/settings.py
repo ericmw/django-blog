@@ -123,4 +123,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = '/hpme/ericmw/ericmw-django-blog/blog/static'
+
 SITE_ID = 1
